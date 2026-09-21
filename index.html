@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="data:," />
+  <title>Seattle Home Search — Sep 2026</title>
+  <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin>
+  <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div id="map" aria-label="Interactive map of Seattle home candidates and nearby amenities"></div>
+
+  <header class="masthead" aria-label="Map summary">
+    <h1><span class="title-desktop">Seattle Home Search — Sep 2026</span><span class="title-mobile">Seattle homes · Sep 2026</span></h1>
+    <div class="summary"><span>18 homes</span><span>14 active</span><span>428 amenities</span><span>18 layers</span></div>
+  </header>
+
+  <aside class="legend is-open" id="mapLegend" aria-label="Map legend">
+    <button class="legend-toggle" id="legendToggle" type="button" aria-expanded="true" aria-controls="legendGrid"><span class="legend-title">Map key</span></button>
+    <div class="legend-grid" id="legendGrid">
+      <span class="legend-item"><i class="swatch" style="--dot:var(--active)"></i>Active</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--contract)"></i>Under contract</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--eliminated)"></i>Eliminated</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--offmarket)"></i>Off market</span>
+      <i class="legend-separator"></i>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--parks)"></i>Parks</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--libraries)"></i>Libraries</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--pharmacy)"></i>Pharmacy</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--coffee)"></i>Coffee, tea &amp; bakeries</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--gyms)"></i>Gyms</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--restaurants)"></i>Restaurants</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--float)"></i>Float therapy</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--grocery)"></i>Grocery stores</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--bicycle)"></i>Bicycle repair</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--daycare)"></i>Daycares</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--dentist)"></i>Dentists</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--museum)"></i>Museums</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--barber)"></i>Barbers</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--pediatric)"></i>Pediatric &amp; urgent care</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--school)"></i>Elementary schools</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--market)"></i>Farmers markets</span>
+      <span class="legend-item"><i class="swatch" style="--dot:var(--rail)"></i>Light rail stations</span>
+    </div>
+  </aside>
+
+  <p class="map-status" id="mapStatus" role="status" hidden>The street map is unavailable right now. Pins and Browse places still work.</p>
+  <button class="browse-button" id="browseButton" type="button" aria-expanded="false" aria-controls="placesPanel"><span class="browse-long">Browse places</span><span class="browse-short">Places</span></button>
+  <aside class="places-panel" id="placesPanel" aria-hidden="true" aria-label="Browse all map places">
+    <div class="panel-head">
+      <h2>All places</h2>
+      <button class="close-panel" id="closePanel" type="button" aria-label="Close places panel">×</button>
+    </div>
+    <div class="category-tabs" id="categoryTabs" aria-label="Filter place list"></div>
+    <div class="category-select-wrap"><select class="category-select" id="categorySelect" aria-label="Filter place list"></select></div>
+    <div class="place-list" id="placeList"></div>
+  </aside>
+
+  <section class="fallback" id="fallback" hidden>
+    <div class="fallback-inner">
+      <h1>Seattle Home Search — Sep 2026</h1>
+      <p class="fallback-intro">The interactive map couldn’t load. Every place is listed below.</p>
+      <div id="fallbackList"></div>
+    </div>
+  </section>
+
+  <script src="assets/leaflet/leaflet.js"></script>
+  <script src="data/mapData.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

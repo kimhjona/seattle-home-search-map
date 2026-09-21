@@ -1,0 +1,43 @@
+# Changelog
+
+## 2026-09-21 — Repo export
+
+- Exported the map to this repo as a maintainable multi-file project
+  (`index.html` + `assets/css/styles.css` + `assets/js/app.js` +
+  `data/mapData.js`), split from the hosted single-file artifact.
+- Data is the closure-audit-corrected set: **443 markers, 18 layers**
+  (18 candidate homes + 425 amenities). Permanently-closed China Harbor,
+  Mamnoon, and Wallingford Pediatrics are removed.
+- Fixed: Float therapy layer had no color, so its dots rendered near-white
+  and were nearly invisible. Assigned `#00acc1` (cyan).
+- Added `scripts/validate.py` (schema/coordinate/duplicate checks) and
+  `scripts/build_single_file.py` (reassemble a single-file `dist/` page).
+- Added README, AGENTS.md (LLM operating guide), docs/DATA_MODEL.md.
+
+Known drift: the hosted Muse artifact still shows the three closed places
+above; it needs a manual rebuild from this repo to catch up.
+
+## 2026-09-21 — Dots fix (hosted artifact)
+
+- All markers vanished on mobile: they were drawn on one shared canvas that
+  some mobile webviews drop during compositing. Moved every marker to
+  Leaflet's SVG overlay (`preferCanvas: false`).
+
+## 2026-09-21 — Mobile rebuild (hosted artifact)
+
+- Slimmer mobile header, compact Places button, collapsible map key (starts
+  closed on mobile), shorter bottom-sheet places browser, single category
+  selector on mobile, background controls recede while the sheet is open.
+
+## 2026-09-21 — Closure audit
+
+- Removed permanently-closed China Harbor and Mamnoon (restaurants).
+- Wallingford Pediatrics (permanently closed) already removed.
+- Ambiguous cases retained (e.g. Snappy Dragon, Mondello, Wedgwood Broiler,
+  University Branch Library, Walgreens #6890).
+
+## 2026-09-20 — Map created
+
+- Initial map: 18 candidate homes (one marker per home; the four Woodlawn
+  units share a single "Bungalow 4 on Woodlawn" marker) plus 17 amenity
+  layers around Fremont/Wallingford/Green Lake.
