@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-23 — Sync from property sheet (14:05 run)
+
+- Added **4514 Corliss Ave N Unit A** ($1,249,900, Active) and **3646A
+  Greenwood Ave N Unit B** ($899,950, Active) from the property comparison
+  sheet (rows 18 and 19). Geocoded 47.66193, -122.33108 and 47.65384,
+  -122.35513. Sheet notes: 4514 Corliss is nice but at/over budget; 3646A
+  Greenwood is nice and worth viewing.
+- 957 N 35th St was NOT re-added: already on the map as Eliminated ("awkward
+  4-story layout"). The sync's street-address matching now strips the
+  ", Seattle, WA <zip>" suffix so this case can't slip through again.
+- Counts now 446 markers (21 candidate homes + 425 amenities), 18 layers.
+  Validated, pushed to main.
+
 ## 2026-09-23 — Sync-run duplicate fixed
 
 - The 02:05 hourly sync misread the map data and re-added **4516 B Corliss
