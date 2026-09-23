@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-22 — README amenity count fix
+
+- Fixed README header: 426 → 425 curated amenities (444 total markers minus
+  19 candidate homes), matching the CHANGELOG.
+
 ## 2026-09-22 — Sync from property sheet
 
 - Added **4516 B Corliss Ave N** ($1,224,900, Active) from the property

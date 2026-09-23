@@ -2,7 +2,7 @@
 
 An interactive map of Seattle candidate homes plus nearby amenities — built for
 a Fremont townhouse hunt (under $1.2M, 3bd/2ba+, built 2011+). 19 candidate
-homes, 426 curated amenities, 18 toggleable layers. Mobile-first.
+homes, 425 curated amenities, 18 toggleable layers. Mobile-first.
 
 The hosted copy lives as a private Muse artifact ("Seattle Home Search Map");
 this repo is the maintainable source. This map is curated, not exhaustive —
