@@ -37,6 +37,7 @@ def main():
         layers = {}
 
     seen = {}  # (lat, lon, name) -> layer
+    seen_coords = {}  # (lat, lon) -> name; catches same-spot different-name dupes
     total = 0
     print(f"{'layer':32s} {'count':>6s}")
     for name, layer in layers.items():
@@ -65,6 +66,10 @@ def main():
             if key in seen:
                 errors.append(f"{where} duplicate of {seen[key]}: {p.get('name')!r}")
             seen[key] = where
+            coord_key = key[:2]
+            if coord_key in seen_coords and seen_coords[coord_key] != p.get("name"):
+                warnings.append(f"{where} shares coordinates with {seen_coords[coord_key]!r}: {p.get('name')!r}")
+            seen_coords.setdefault(coord_key, p.get("name"))
             if name == "Candidate homes":
                 if p.get("status") not in HOME_STATUSES:
                     errors.append(f"{where} bad status: {p.get('status')!r}")

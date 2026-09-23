@@ -1,17 +1,21 @@
 # Changelog
 
-## 2026-09-23 — Sync from property sheet (14:05 run)
+## 2026-09-23 — Sync-run near-duplicates fixed
 
-- Added **4514 Corliss Ave N Unit A** ($1,249,900, Active) and **3646A
-  Greenwood Ave N Unit B** ($899,950, Active) from the property comparison
-  sheet (rows 18 and 19). Geocoded 47.66193, -122.33108 and 47.65384,
-  -122.35513. Sheet notes: 4514 Corliss is nice but at/over budget; 3646A
-  Greenwood is nice and worth viewing.
-- 957 N 35th St was NOT re-added: already on the map as Eliminated ("awkward
-  4-story layout"). The sync's street-address matching now strips the
-  ", Seattle, WA <zip>" suffix so this case can't slip through again.
-- Counts now 446 markers (21 candidate homes + 425 amenities), 18 layers.
-  Validated, pushed to main.
+- The 14:05 sync added **4514 Corliss Ave N Unit A** and **3646A Greenwood Ave
+  N Unit B** as new markers, but both homes were already on the map under
+  their old Property names ("4514 A Corliss Ave N", "3646 B Greenwood Ave N"
+  — Jon has since renamed them in the sheet). Removed the two duplicate
+  markers and renamed the existing ones to the sheet's current Property
+  values, keeping their Redfin links and refreshing notes from Jon's latest
+  sheet notes.
+- The sync job now matches on the Address column (city/state/zip stripped)
+  first, and reports Property renames instead of re-adding them.
+- `scripts/validate.py` now also warns when two points share coordinates
+  under different names (the old check keyed on name too, so same-spot
+  renames slipped through).
+- Counts back to 444 markers (19 candidate homes + 425 amenities), 18 layers.
+  Validated clean, pushed to main.
 
 ## 2026-09-23 — Sync-run duplicate fixed
 
