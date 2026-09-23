@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-22 — Sync from property sheet
+
+- Added **4516 B Corliss Ave N** ($1,224,900, Active) from the property
+  comparison sheet (Prime Development, 3bd/3ba, MLS 2559616; price cut
+  9/1/26 from $1,249,900). Geocoded 47.66191, -122.33088.
+- Map now has **444 markers** (19 candidate homes + 425 amenities).
+
 ## 2026-09-21 — Repo export
 
 - Exported the map to this repo as a maintainable multi-file project

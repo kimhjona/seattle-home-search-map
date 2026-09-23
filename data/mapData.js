@@ -30,7 +30,8 @@ const mapData = {
         {"lat": 47.6496, "lon": -122.34515, "name": "955 N 35th St", "notes": "Eliminated: poor natural light", "price": "$999,950", "status": "Eliminated"},
         {"lat": 47.65419, "lon": -122.33924, "name": "3852 Carr Pl N", "notes": "Under contract", "price": "$765,950", "status": "Under contract"},
         {"lat": 47.65337, "lon": -122.3503, "name": "3819 A Fremont Ave N", "notes": "Eliminated: living room too small", "price": "$1,028,000", "status": "Eliminated"},
-        {"lat": 47.65995, "lon": -122.33837, "name": "Bungalow 4 on Woodlawn", "price": "$998,000-$1,038,000", "status": "Active", "notes": "4 units (4326 #A/#B, 4328 #A/#B): all active, none sold (2026-09-20). 3bd/2.5ba new construction, no HOA. 4326 #B $1,038,000 (MLS 2571049); 4328 #A $998,000 (MLS 2580241); other two prices not published."}
+        {"lat": 47.65995, "lon": -122.33837, "name": "Bungalow 4 on Woodlawn", "price": "$998,000-$1,038,000", "status": "Active", "notes": "4 units (4326 #A/#B, 4328 #A/#B): all active, none sold (2026-09-20). 3bd/2.5ba new construction, no HOA. 4326 #B $1,038,000 (MLS 2571049); 4328 #A $998,000 (MLS 2580241); other two prices not published."},
+        {"lat": 47.66191, "lon": -122.33088, "name": "4516 B Corliss Ave N", "notes": "", "price": "$1,224,900", "status": "Active"}
       ]
     },
     "Grocery stores": {
