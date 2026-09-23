@@ -13,9 +13,19 @@
       return layer.color_by === "status" ? layer.colors[point.status] : layer.color;
     };
     const placeKey = (category, point, index) => `${category}-${index}-${point.name}`;
+    const listingLinks = (point) => {
+      if (Array.isArray(point.urls) && point.urls.length) {
+        return point.urls.map(u => `<a class="popup-link" href="${escapeHtml(u.url)}" target="_blank" rel="noopener">${escapeHtml(u.label)} &#8599;</a>`).join("<br>");
+      }
+      if (point.url) {
+        return `<a class="popup-link" href="${escapeHtml(point.url)}" target="_blank" rel="noopener">View Redfin listing &#8599;</a>`;
+      }
+      return "";
+    };
     const popupHtml = (category, point) => {
       const meta = category === "Candidate homes" ? `${escapeHtml(point.status)} · ${escapeHtml(point.price)}` : escapeHtml(category);
-      return `<p class="popup-name"><strong>${escapeHtml(point.name)}</strong></p><p class="popup-meta">${meta}</p>${point.notes ? `<p class="popup-notes">${escapeHtml(point.notes)}</p>` : ""}`;
+      const links = category === "Candidate homes" ? listingLinks(point) : "";
+      return `<p class="popup-name"><strong>${escapeHtml(point.name)}</strong></p><p class="popup-meta">${meta}</p>${point.notes ? `<p class="popup-notes">${escapeHtml(point.notes)}</p>` : ""}${links ? `<p class="popup-links">${links}</p>` : ""}`;
     };
 
     function makePlaceCard(place, interactive = true) {

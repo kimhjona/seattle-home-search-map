@@ -206,6 +206,8 @@
     .popup-name { font-size: 15px; line-height: 1.25; }
     .popup-meta { margin-top: 5px !important; color: var(--muted); font-size: 12px; font-weight: 650; }
     .popup-notes { margin-top: 8px !important; padding-top: 8px; border-top: 1px solid var(--line); color: var(--ink); font-size: 13px; }
+    .popup-links { margin-top: 8px !important; padding-top: 8px; border-top: 1px solid var(--line); font-size: 13px; }
+    .popup-link { color: var(--accent); font-weight: 650; }
 
     .map-status {
       position: fixed;

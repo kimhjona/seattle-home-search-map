@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-22 — Clickable Redfin listings on candidate homes
+
+- Every Candidate homes point now has a `url` (the Woodlawn cluster has
+  `urls` with one link per listed unit), sourced from the property sheet's
+  Listing URL column.
+- Candidate-home popups show a "View Redfin listing" link that opens in a
+  new tab.
+
 ## 2026-09-22 — README amenity count fix
 
 - Fixed README header: 426 → 425 curated amenities (444 total markers minus
