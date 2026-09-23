@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-23 — Sync from property sheet (hourly)
+
+- Added **4516 B Corliss Ave N** ($1,224,900, Active) from the property
+  comparison sheet (sheet row 21). Geocoded 47.66191, -122.33088 (Wallingford).
+  Note: the 2026-09-22 changelog entry for this address predates the actual
+  marker — the data add only landed in this run. Counts now: 444 markers
+  (19 candidate homes + 425 amenities), 18 layers. Validated, pushed to main.
+
 ## 2026-09-22 — Clickable Redfin listings on candidate homes
 
 - Every Candidate homes point now has a `url` (the Woodlawn cluster has
