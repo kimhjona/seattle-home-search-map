@@ -1,12 +1,14 @@
 # Changelog
 
-## 2026-09-23 — Sync from property sheet (hourly)
+## 2026-09-23 — Sync-run duplicate fixed
 
-- Added **4516 B Corliss Ave N** ($1,224,900, Active) from the property
-  comparison sheet (sheet row 21). Geocoded 47.66191, -122.33088 (Wallingford).
-  Note: the 2026-09-22 changelog entry for this address predates the actual
-  marker — the data add only landed in this run. Counts now: 444 markers
+- The 02:05 hourly sync misread the map data and re-added **4516 B Corliss
+  Ave N** (already on the map since 2026-09-22), creating a duplicate marker
+  and corrupting the Woodlawn point's `urls` array. Both issues are fixed:
+  one 4516 B marker, Woodlawn links restored. Counts back to 444 markers
   (19 candidate homes + 425 amenities), 18 layers. Validated, pushed to main.
+- The sync job's matching rules were tightened so it no longer re-adds a
+  marker whose name already exists.
 
 ## 2026-09-22 — Clickable Redfin listings on candidate homes
 
