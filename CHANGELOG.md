@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-09-28 — Apartment search expansion (8 more buildings)
+
+- Three parallel lane sweeps (Ballard/Greenwood-Phinney, Capitol Hill/Belltown/
+  deeper SLU/LQA-Uptown, Magnolia/Wallingford/Montlake/Madison Park/View Ridge)
+  screened ~140 buildings. School assignments verified with a point-in-polygon
+  lookup against the official SPS 2025-26 attendance-area GIS
+  (`~/workspace/apartment-sweep/school_lookup.py`, validated against 6 known
+  addresses).
+- 7 new WATCH markers: 6000 24th Ave NW (Ballard — 3bd/2ba $3,595 Unit 401 was
+  listed available then marked Rented on 9/28), 62nd Street Apartments, Ballard
+  4 Apartments (all Adams #13); The Hemlock, Paula Marie Apartments (both
+  Greenwood #12); Stoneway Apartments (B.F. Day #24); Nob Hill Apartments
+  (Hay #28, 3bd/2ba $3,295).
+- 1 new EXCLUDED marker: Onni South Lake Union (Lowell #62; same complex as
+  current building).
+- Notable non-qualifiers: The Confidential (Belltown), Connection on Broadway,
+  Rianna (Capitol Hill) — all would otherwise qualify but are Lowell-zoned.
+  Eastern Magnolia Village strip is Coe #4 per SPS GIS (no building there
+  cleared Walk Score).
+- Counts now 461 markers (19 candidate homes + 17 apartments + 425 amenities),
+  19 layers. Validated clean, pushed to main.
+
 ## 2026-09-28 — Apartments layer added
 
 - New **Apartments** layer (9 markers) with the rental shortlist: JUXT, Alexan
