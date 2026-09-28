@@ -34,6 +34,26 @@ const mapData = {
         {"lat": 47.66191, "lon": -122.33088, "name": "4516 B Corliss Ave N", "notes": "", "price": "$1,224,900", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4516-Corliss-Ave-N-98103/home/203264201"}
       ]
     },
+    "Apartments": {
+      "color_by": "status",
+      "colors": {
+        "Active": "#1a73e8",
+        "Eliminated": "#9e9e9e",
+        "Off market": "#3c4043",
+        "Under contract": "#f29900"
+      },
+      "points": [
+        {"lat": 47.62664, "lon": -122.34185, "name": "JUXT", "address": "810 Dexter Ave N, Seattle, WA 98109", "price": "$5,192-$5,782", "status": "Active", "notes": "3bd/2ba, 1,410 sqft, units 536/436 listed available. Walk Score 94. John Hay #28 (SPS-verified). 21-min walk to Hay. ~1-min bike to Meta Dexter office."},
+        {"lat": 47.61874, "lon": -122.35529, "name": "Alexan 100", "address": "100 Denny Way, Seattle, WA 98109", "price": "from $5,218", "status": "Active", "notes": "3bd/3ba, 1,676 sqft; low end qualifies, unit/lease-term dependent. Walk Score ~95. John Hay #28 (SPS-verified). 27-min walk to Hay. EV garage $250/mo."},
+        {"lat": 47.63198, "lon": -122.34134, "name": "One Lakefront", "address": "1287 Westlake Ave N, Seattle, WA 98109", "price": "$5,739-$6,309", "status": "Active", "notes": "3bd/2ba; only specific units under $6k, confirm unit-by-unit. Walk Score 90. John Hay #28 (SPS-verified). 14-min walk to Hay."},
+        {"lat": 47.61934, "lon": -122.35322, "name": "Axis", "address": "123 2nd Ave N, Seattle, WA 98109", "price": "$5,290", "status": "Active", "notes": "CONDITIONAL: Unit 703 3bd/2ba shown available on apartments.com but conflicts with your check. Confirm with leasing office. Walk Score 98. John Hay #28 (SPS-verified)."},
+        {"lat": 47.66369, "lon": -122.30133, "name": "Arista Residences", "address": "4715 25th Ave NE, Seattle, WA 98105", "price": "Call for rent", "status": "Off market", "notes": "WATCH: zero 3BR units currently available. Walk Score 90. Laurelhurst #34 (SPS-verified). 31-min walk to school."},
+        {"lat": 47.6587, "lon": -122.3427, "name": "Watermarke", "address": "4213 Stone Way N, Seattle, WA 98103", "price": "$3,700-$3,850", "status": "Off market", "notes": "WATCH: not currently accepting new tenants. 3bd/3ba. Walk Score 95. B.F. Day #24 (SPS-verified). 13-min walk to school."},
+        {"lat": 47.62128, "lon": -122.35767, "name": "Windsor Queen Anne", "address": "300 1st Ave W, Seattle, WA 98119", "price": "Call for rent", "status": "Off market", "notes": "WATCH: zero 3BR inventory. Walk Score 92. John Hay #28 (SPS-verified, not Coe). 26-min walk to Hay. EV garage $300/mo."},
+        {"lat": 47.65648, "lon": -122.31809, "name": "Augusta", "address": "4041 Roosevelt Way NE, Seattle, WA 98105", "price": "3bd gone", "status": "Eliminated", "notes": "EXCLUDED: Green Lake #39 (SPS-verified, below bar). 3bd listing gone, only 1BRs live. Walk Score 93."},
+        {"lat": 47.6611, "lon": -122.32326, "name": "Camden Apartments", "address": "4427 5th Ave NE, Seattle, WA 98105", "price": "$2,895", "status": "Eliminated", "notes": "EXCLUDED: Green Lake #39 (below bar). 3bd/2ba unit #2 available. Walk Score 91."}
+      ]
+    },
     "Grocery stores": {
       "color": "#009688",
       "points": [

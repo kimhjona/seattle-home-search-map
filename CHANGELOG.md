@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-28 — Apartments layer added
+
+- New **Apartments** layer (9 markers) with the rental shortlist: JUXT, Alexan
+  100, One Lakefront (Active); Axis (Active, conditional — Unit 703
+  availability conflicts with Jon's check); Arista, Watermarke, Windsor Queen
+  Anne (Off market — watch list, no 3BR available); Augusta, Camden
+  (Eliminated — Green Lake #39 school rank). Markers carry 3bd rent, Walk
+  Score, SPS-verified elementary assignment, and walk time to the school.
+- Counts now 453 markers (19 candidate homes + 9 apartments + 425 amenities),
+  19 layers. Validated clean, pushed to main.
+
 ## 2026-09-23 — Sync-run near-duplicates fixed
 
 - The 14:05 sync added **4514 Corliss Ave N Unit A** and **3646A Greenwood Ave
