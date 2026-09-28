@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-28 — Apartments layer: single marker color
+
+- Apartments markers are now all one purple (#8e24aa) instead of four
+  status-based colors (blue/gray/dark gray/orange). Status info is unchanged
+  in each marker's notes/popup. Added an "Apartments" entry to the map key.
+
 ## 2026-09-28 — Apartment search expansion (8 more buildings)
 
 - Three parallel lane sweeps (Ballard/Greenwood-Phinney, Capitol Hill/Belltown/

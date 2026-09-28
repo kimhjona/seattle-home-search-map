@@ -35,13 +35,7 @@ const mapData = {
       ]
     },
     "Apartments": {
-      "color_by": "status",
-      "colors": {
-        "Active": "#1a73e8",
-        "Eliminated": "#9e9e9e",
-        "Off market": "#3c4043",
-        "Under contract": "#f29900"
-      },
+      "color": "#8e24aa",
       "points": [
         {"lat": 47.62664, "lon": -122.34185, "name": "JUXT", "address": "810 Dexter Ave N, Seattle, WA 98109", "price": "$5,192-$5,782", "status": "Active", "notes": "3bd/2ba, 1,410 sqft, units 536/436 listed available. Walk Score 94. John Hay #28 (SPS-verified). 21-min walk to Hay. ~1-min bike to Meta Dexter office."},
         {"lat": 47.61874, "lon": -122.35529, "name": "Alexan 100", "address": "100 Denny Way, Seattle, WA 98109", "price": "from $5,218", "status": "Active", "notes": "3bd/3ba, 1,676 sqft; low end qualifies, unit/lease-term dependent. Walk Score ~95. John Hay #28 (SPS-verified). 27-min walk to Hay. EV garage $250/mo."},
