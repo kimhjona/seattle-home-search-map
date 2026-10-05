@@ -31,7 +31,9 @@ const mapData = {
         {"lat": 47.65419, "lon": -122.33924, "name": "3852 Carr Pl N", "notes": "Under contract", "price": "$765,950", "status": "Under contract", "url": "https://www.redfin.com/WA/Seattle/3852-Carr-Pl-N-98103/home/194158545"},
         {"lat": 47.65337, "lon": -122.3503, "name": "3819 A Fremont Ave N", "notes": "Eliminated: living room too small", "price": "$1,028,000", "status": "Eliminated", "url": "https://www.redfin.com/WA/Seattle/3819-Fremont-Ave-N-98103/unit-A/home/192269689"},
         {"lat": 47.65995, "lon": -122.33837, "name": "Bungalow 4 on Woodlawn", "price": "$998,000-$1,038,000", "status": "Active", "notes": "4 units (4326 #A/#B, 4328 #A/#B): all active, none sold (2026-09-20). 3bd/2.5ba new construction, no HOA. 4326 #B $1,038,000 (MLS 2571049); 4328 #A $998,000 (MLS 2580241); other two prices not published.", "urls": [{"label": "4326 Woodlawn Ave N #B", "url": "https://www.redfin.com/WA/Seattle/4326-Woodlawn-Ave-N-98103/unit-B/home/202666750"}, {"label": "4328 Woodlawn Ave N Unit A", "url": "https://www.redfin.com/WA/Seattle/4328-Woodlawn-Ave-N-98103/unit-A/home/202666751"}]},
-        {"lat": 47.66191, "lon": -122.33088, "name": "4516 B Corliss Ave N", "notes": "", "price": "$1,224,900", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4516-Corliss-Ave-N-98103/home/203264201"}
+        {"lat": 47.66191, "lon": -122.33088, "name": "4516 B Corliss Ave N", "notes": "", "price": "$1,224,900", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4516-Corliss-Ave-N-98103/home/203264201"},
+        {"lat": 47.66336, "lon": -122.34001, "name": "1411 N 48th St", "notes": "Already toured and liked it. On the Sunday tour list.", "price": "$998,000", "status": "Active", "url": "https://portal.onehome.com/en-US/property/aotf~1191514620~NWMLS"},
+        {"lat": 47.66309, "lon": -122.34002, "name": "1412 N 47th St", "notes": "We like the build of the house. On the Sunday tour list.", "price": "$1,068,000", "status": "Active", "url": "https://portal.onehome.com/en-US/property/aotf~1158603324~NWMLS"}
       ]
     },
     "Apartments": {

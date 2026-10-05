@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-05 — Sunday tour list: 2 more candidate homes
+
+- Added 1411 N 48th St ($998,000, Active) and 1412 N 47th St ($1,068,000,
+  Active) to the Candidate homes layer. Both are Wallingford 2026 townhomes
+  marked "Interested" in the property sheet's Sunday tour list; the other 6
+  tour-list homes were already on the map. Geocoded to full-address matches
+  in Wallingford. Candidate homes: 19 -> 21.
+
 ## 2026-09-28 — Apartments layer: single marker color
 
 - Apartments markers are now all one purple (#8e24aa) instead of four
