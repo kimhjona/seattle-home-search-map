@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-17 — Sync from property sheet: 1 new candidate home
+
+- Added 4220 6th Ave NW ($1,150,000, Active) to the Candidate homes layer
+  (sheet row 24; 4bd/3.5ba, 2,010 sqft, built 2019, MLS 2594829). Geocoded
+  to a full-address match in Fremont (47.6585, -122.36353). Candidate
+  homes: 21 -> 22. Total markers: 463 -> 464.
+
 ## 2026-10-05 — Sunday tour list: 2 more candidate homes
 
 - Added 1411 N 48th St ($998,000, Active) and 1412 N 47th St ($1,068,000,
