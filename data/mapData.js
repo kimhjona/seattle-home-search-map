@@ -34,7 +34,8 @@ const mapData = {
         {"lat": 47.66191, "lon": -122.33088, "name": "4516 B Corliss Ave N", "notes": "", "price": "$1,224,900", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4516-Corliss-Ave-N-98103/home/203264201"},
         {"lat": 47.66336, "lon": -122.34001, "name": "1411 N 48th St", "notes": "Already toured and liked it. On the Sunday tour list.", "price": "$998,000", "status": "Active", "url": "https://portal.onehome.com/en-US/property/aotf~1191514620~NWMLS"},
         {"lat": 47.66309, "lon": -122.34002, "name": "1412 N 47th St", "notes": "We like the build of the house. On the Sunday tour list.", "price": "$1,068,000", "status": "Active", "url": "https://portal.onehome.com/en-US/property/aotf~1158603324~NWMLS"},
-        {"lat": 47.6585, "lon": -122.36353, "name": "4220 6th Ave NW", "notes": "", "price": "$1,150,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4220-6th-Ave-NW-98107/home/162234097"}
+        {"lat": 47.6585, "lon": -122.36353, "name": "4220 6th Ave NW", "notes": "", "price": "$1,150,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4220-6th-Ave-NW-98107/home/162234097"},
+        {"lat": 47.61734, "lon": -122.31028, "name": "1757 17th Ave", "notes": "To look into later (per Jon, 2026-10-20)", "price": "$825,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1757-17th-Ave-98122/home/194153679"}
       ]
     },
     "Apartments": {

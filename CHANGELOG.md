@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-20 — Sync from property sheet: 1 new candidate home
+
+- Added 1757 17th Ave ($825,000, Active) to the Candidate homes layer
+  (sheet row 25; Jon's notes: "To look into later (per Jon, 2026-10-20)").
+  Geocoded to a full-address match in Capitol Hill (47.61734, -122.31028).
+  Candidate homes: 22 -> 23. Total markers: 464 -> 465.
+
 ## 2026-10-17 — Sync from property sheet: 1 new candidate home
 
 - Added 4220 6th Ave NW ($1,150,000, Active) to the Candidate homes layer
