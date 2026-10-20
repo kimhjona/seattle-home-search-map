@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-21 — Sync from property sheet: 2 new candidate homes
+
+- Added 1745 17th Ave ($799,000, Active) to the Candidate homes layer
+  (sheet row 26; Jon's notes: "Would like to tour (per Jon, 2026-10-21)").
+  Geocoded to a full-address match (47.61731, -122.31068).
+- Added 1713 17th Ave ($899,000, Active) to the Candidate homes layer
+  (sheet row 27; Jon's notes: "Would like to tour (per Jon, 2026-10-21)").
+  Geocoded to a full-address match (47.61707, -122.31067).
+  Candidate homes: 23 -> 25. Total markers: 465 -> 467.
+
 ## 2026-10-20 — Sync from property sheet: 1 new candidate home
 
 - Added 1757 17th Ave ($825,000, Active) to the Candidate homes layer
