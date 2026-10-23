@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-23 — Sync from property sheet: 1 new candidate home
+
+- Added 2412 Queen Anne Ave N ($799,950, Active) to the Candidate homes layer
+  (sheet row 28; Jon's notes: "Good find, loves the price (per Jon, 2026-10-23); hesitation is that it is too small.").
+  Geocoded to a full-address match (47.64004, -122.35651).
+  Candidate homes: 25 -> 26. Total markers: 467 -> 468.
+
 ## 2026-10-21 — Sync from property sheet: 2 new candidate homes
 
 - Added 1745 17th Ave ($799,000, Active) to the Candidate homes layer
