@@ -38,7 +38,8 @@ const mapData = {
         {"lat": 47.61734, "lon": -122.31028, "name": "1757 17th Ave", "notes": "To look into later (per Jon, 2026-10-20)", "price": "$825,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1757-17th-Ave-98122/home/194153679"},
         {"lat": 47.61731, "lon": -122.31068, "name": "1745 17th Ave", "notes": "Would like to tour (per Jon, 2026-10-21)", "price": "$799,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1745-17th-Ave-98122/home/194153680"},
         {"lat": 47.61707, "lon": -122.31067, "name": "1713 17th Ave", "notes": "Would like to tour (per Jon, 2026-10-21)", "price": "$899,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1713-17th-Ave-98122/home/195912252"},
-        {"lat": 47.64004, "lon": -122.35651, "name": "2412 Queen Anne Ave N", "notes": "Good find, loves the price (per Jon, 2026-10-23); hesitation is that it is too small.", "price": "$799,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/2412-Queen-Anne-Ave-N-98109/home/205393168"}
+        {"lat": 47.64004, "lon": -122.35651, "name": "2412 Queen Anne Ave N", "notes": "Good find, loves the price (per Jon, 2026-10-23); hesitation is that it is too small.", "price": "$799,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/2412-Queen-Anne-Ave-N-98109/home/205393168"},
+        {"lat": 47.67572, "lon": -122.31969, "name": "807 NE 65th St", "notes": "From the daily search 2026-10-26; added per Jon's new default.", "price": "$859,950", "status": "Active"}
       ]
     },
     "Apartments": {

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-26 — Sync from property sheet: 1 new candidate home
+
+- Added 807 NE 65th St ($859,950, Active) to the Candidate homes layer
+  (sheet row 29; Jon's notes: "From the daily search 2026-10-26; added per Jon's new default.").
+  Geocoded to a full-address match (47.67572, -122.31969). No listing URL in the sheet, so no url field.
+  Candidate homes: 26 -> 27. Total markers: 468 -> 469.
+
 ## 2026-10-23 — Sync from property sheet: 1 new candidate home
 
 - Added 2412 Queen Anne Ave N ($799,950, Active) to the Candidate homes layer
