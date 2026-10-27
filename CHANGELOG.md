@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-27 — Sync from property sheet: 1 new candidate home
+
+- Added 1759 NW 62nd St ($849,950, Active) to the Candidate homes layer
+  (sheet row 30; Jon's notes: "From the daily search 2026-10-27.").
+  Geocoded to a full-address match (47.67365, -122.38134).
+  Candidate homes: 27 -> 28. Total markers: 469 -> 470.
+
 ## 2026-10-26 — Sync from property sheet: 1 new candidate home
 
 - Added 807 NE 65th St ($859,950, Active) to the Candidate homes layer
