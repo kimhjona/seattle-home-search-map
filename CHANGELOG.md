@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-28 — Sync from property sheet: 2 new candidate homes
+
+- Added 1755 NW 62nd St ($799,950, Active) to the Candidate homes layer
+  (sheet row 31; Jon's notes: "Sibling unit of 1759 NW 62nd St; added per Jon, 2026-10-28, to check later.").
+  Geocoded to a full-address match (47.6736, -122.38135).
+- Added 1761 NW 62nd St ($849,950, Active) to the Candidate homes layer
+  (sheet row 32; Jon's notes: "Sibling unit of 1759 NW 62nd St; added per Jon, 2026-10-28, to check later.").
+  Geocoded to a full-address match (47.67365, -122.38141).
+  Candidate homes: 28 -> 30. Total markers: 470 -> 472.
+
 ## 2026-10-27 — Sync from property sheet: 1 new candidate home
 
 - Added 1759 NW 62nd St ($849,950, Active) to the Candidate homes layer
