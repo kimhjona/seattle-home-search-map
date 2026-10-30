@@ -43,7 +43,8 @@ const mapData = {
         {"lat": 47.67365, "lon": -122.38134, "name": "1759 NW 62nd St", "notes": "From the daily search 2026-10-27.", "price": "$849,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1759-NW-62nd-St-98107/home/202940056"},
         {"lat": 47.6736, "lon": -122.38135, "name": "1755 NW 62nd St", "notes": "Sibling unit of 1759 NW 62nd St; added per Jon, 2026-10-28, to check later.", "price": "$799,950", "status": "Active", "url": "https://www.zillow.com/homedetails/1755-NW-62nd-St-Seattle-WA-98107/48823197_zpid/"},
         {"lat": 47.67365, "lon": -122.38141, "name": "1761 NW 62nd St", "notes": "Sibling unit of 1759 NW 62nd St; added per Jon, 2026-10-28, to check later.", "price": "$849,950", "status": "Active", "url": "https://www.zillow.com/homedetails/1761-NW-62nd-St-Seattle-WA-98107/464514610_zpid/"},
-        {"lat": 47.6721, "lon": -122.38594, "name": "2227 NW 60th St Unit B", "notes": "From the daily search 2026-10-29.", "price": "$850,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/2227-NW-60th-St-98107/unit-B/home/113179348"}
+        {"lat": 47.6721, "lon": -122.38594, "name": "2227 NW 60th St Unit B", "notes": "From the daily search 2026-10-29.", "price": "$850,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/2227-NW-60th-St-98107/unit-B/home/113179348"},
+        {"lat": 47.68097, "lon": -122.31586, "name": "1036 NE 72nd St", "notes": "From the daily search 2026-10-30.", "price": "$960,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1036-NE-72nd-St-98115/home/182040555"}
       ]
     },
     "Apartments": {
