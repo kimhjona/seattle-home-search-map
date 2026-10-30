@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-30 — Sync from property sheet: 1 new candidate home (later sync)
+
+- Added 1726 NW 60th St Unit B ($874,000, Active) to the Candidate homes layer
+  (sheet row 35; Jon's notes: "From the daily search 2026-10-30.").
+  Geocoded to a full-address match (47.67258, -122.38012).
+  Candidate homes: 32 -> 33. Total markers: 474 -> 475.
+
 ## 2026-10-30 — Sync from property sheet: 1 new candidate home
 
 - Added 1036 NE 72nd St ($960,000, Active) to the Candidate homes layer
