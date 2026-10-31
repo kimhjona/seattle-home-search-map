@@ -45,7 +45,8 @@ const mapData = {
         {"lat": 47.67365, "lon": -122.38141, "name": "1761 NW 62nd St", "notes": "Sibling unit of 1759 NW 62nd St; added per Jon, 2026-10-28, to check later.", "price": "$849,950", "status": "Active", "url": "https://www.zillow.com/homedetails/1761-NW-62nd-St-Seattle-WA-98107/464514610_zpid/"},
         {"lat": 47.6721, "lon": -122.38594, "name": "2227 NW 60th St Unit B", "notes": "From the daily search 2026-10-29.", "price": "$850,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/2227-NW-60th-St-98107/unit-B/home/113179348"},
         {"lat": 47.68097, "lon": -122.31586, "name": "1036 NE 72nd St", "notes": "From the daily search 2026-10-30.", "price": "$960,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1036-NE-72nd-St-98115/home/182040555"},
-        {"lat": 47.67258, "lon": -122.38012, "name": "1726 NW 60th St Unit B", "notes": "From the daily search 2026-10-30.", "price": "$874,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1726-NW-60th-St-98107/unit-B/home/143457531"}
+        {"lat": 47.67258, "lon": -122.38012, "name": "1726 NW 60th St Unit B", "notes": "From the daily search 2026-10-30.", "price": "$874,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1726-NW-60th-St-98107/unit-B/home/143457531"},
+        {"lat": 47.55724, "lon": -122.27929, "name": "4930 43rd Ave S Unit A", "notes": "From daily search 2026-10-31. Walk Score verified 79, fails bar; not a match.", "price": "$785,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4930-43rd-Ave-S-98118/unit-A/home/206758619"}
       ]
     },
     "Apartments": {

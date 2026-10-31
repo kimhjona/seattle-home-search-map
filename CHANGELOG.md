@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-31 — Sync from property sheet: 1 new candidate home
+
+- Added 4930 43rd Ave S Unit A ($785,000, Active) to the Candidate homes layer
+  (sheet row 20; Jon's notes: "From daily search 2026-10-31. Walk Score verified 79, fails bar; not a match.").
+  Geocoded to a full-address match (47.55724, -122.27929).
+  Candidate homes: 33 -> 34. Total markers: 475 -> 476.
+
 ## 2026-10-30 — Sync from property sheet: 1 new candidate home (later sync)
 
 - Added 1726 NW 60th St Unit B ($874,000, Active) to the Candidate homes layer
