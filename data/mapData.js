@@ -46,7 +46,9 @@ const mapData = {
         {"lat": 47.6721, "lon": -122.38594, "name": "2227 NW 60th St Unit B", "notes": "From the daily search 2026-10-29.", "price": "$850,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/2227-NW-60th-St-98107/unit-B/home/113179348"},
         {"lat": 47.68097, "lon": -122.31586, "name": "1036 NE 72nd St", "notes": "From the daily search 2026-10-30.", "price": "$960,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1036-NE-72nd-St-98115/home/182040555"},
         {"lat": 47.67258, "lon": -122.38012, "name": "1726 NW 60th St Unit B", "notes": "From the daily search 2026-10-30.", "price": "$874,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1726-NW-60th-St-98107/unit-B/home/143457531"},
-        {"lat": 47.55724, "lon": -122.27929, "name": "4930 43rd Ave S Unit A", "notes": "From daily search 2026-10-31. Walk Score verified 79, fails bar; not a match.", "price": "$785,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4930-43rd-Ave-S-98118/unit-A/home/206758619"}
+        {"lat": 47.55724, "lon": -122.27929, "name": "4930 43rd Ave S Unit A", "notes": "From daily search 2026-10-31. Walk Score verified 79, fails bar; not a match.", "price": "$785,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4930-43rd-Ave-S-98118/unit-A/home/206758619"},
+        {"lat": 47.61706, "lon": -122.31058, "name": "1715 17th Ave", "notes": "", "price": "$915,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1715-17th-Ave-98122/home/196478089"},
+        {"lat": 47.60222, "lon": -122.30398, "name": "117 22nd Ave Unit B", "notes": "", "price": "$799,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/117-22nd-Ave-98122/unit-B/home/192257476"}
       ]
     },
     "Apartments": {

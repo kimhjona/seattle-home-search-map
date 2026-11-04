@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-04 — Sync from property sheet: 2 new candidate homes
+
+- Added 1715 17th Ave ($915,000, Active) to the Candidate homes layer
+  (sheet row 19).
+  Geocoded to a full-address match (47.61706, -122.31058).
+- Added 117 22nd Ave Unit B ($799,000, Active) to the Candidate homes layer
+  (sheet row 20).
+  Geocoded to a full-address match (47.60222, -122.30398).
+  Candidate homes: 34 -> 36. Total markers: 476 -> 478.
+
 ## 2026-10-31 — Sync from property sheet: 1 new candidate home
 
 - Added 4930 43rd Ave S Unit A ($785,000, Active) to the Candidate homes layer
