@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-11-06 — Sync from property sheet: 4 new candidate homes
+
+- Added 4721 9th Ave NE ($950,000, Active) to the Candidate homes layer
+  (sheet row 18; Jon's notes: "From the daily search 2026-11-06.").
+  Geocoded to a full-address match (47.66382, -122.31858).
+- Added 1801 20th Ave Unit B ($699,950, Active) to the Candidate homes layer
+  (sheet row 19; Jon's notes: "From the daily search 2026-11-06.").
+  Geocoded to a full-address match (47.61781, -122.30628).
+- Added 1410 N 47th St Unit A ($919,800, Active) to the Candidate homes layer
+  (sheet row 20; Jon's notes: "Price drop reported by daily search 2026-11-06.").
+  Geocoded to a full-address match (47.66303, -122.34); lon nudged 0.00001
+  to -122.34001 so the marker does not sit exactly on sibling Unit B.
+- Added 1704 A N 47th St ($1,029,950, Active) to the Candidate homes layer
+  (sheet row 21; Jon's notes: "Price drop reported by daily search 2026-11-06.").
+  Geocoded to a full-address match (47.66304, -122.33724).
+  Candidate homes: 36 -> 40. Total markers: 478 -> 482.
+
 ## 2026-11-04 — Sync from property sheet: 2 new candidate homes
 
 - Added 1715 17th Ave ($915,000, Active) to the Candidate homes layer

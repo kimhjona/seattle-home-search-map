@@ -48,7 +48,11 @@ const mapData = {
         {"lat": 47.67258, "lon": -122.38012, "name": "1726 NW 60th St Unit B", "notes": "From the daily search 2026-10-30.", "price": "$874,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1726-NW-60th-St-98107/unit-B/home/143457531"},
         {"lat": 47.55724, "lon": -122.27929, "name": "4930 43rd Ave S Unit A", "notes": "From daily search 2026-10-31. Walk Score verified 79, fails bar; not a match.", "price": "$785,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4930-43rd-Ave-S-98118/unit-A/home/206758619"},
         {"lat": 47.61706, "lon": -122.31058, "name": "1715 17th Ave", "notes": "", "price": "$915,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1715-17th-Ave-98122/home/196478089"},
-        {"lat": 47.60222, "lon": -122.30398, "name": "117 22nd Ave Unit B", "notes": "", "price": "$799,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/117-22nd-Ave-98122/unit-B/home/192257476"}
+        {"lat": 47.60222, "lon": -122.30398, "name": "117 22nd Ave Unit B", "notes": "", "price": "$799,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/117-22nd-Ave-98122/unit-B/home/192257476"},
+        {"lat": 47.66382, "lon": -122.31858, "name": "4721 9th Ave NE", "notes": "From the daily search 2026-11-06.", "price": "$950,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4721-9th-Ave-NE-98105/home/69356408"},
+        {"lat": 47.61781, "lon": -122.30628, "name": "1801 20th Ave Unit B", "notes": "From the daily search 2026-11-06.", "price": "$699,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1801-20th-Ave-98122/unit-B/home/172698534"},
+        {"lat": 47.66303, "lon": -122.34001, "name": "1410 N 47th St Unit A", "notes": "Price drop reported by daily search 2026-11-06.", "price": "$919,800", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1410-N-47th-St-98103/unit-A/home/199485443"},
+        {"lat": 47.66304, "lon": -122.33724, "name": "1704 A N 47th St", "notes": "Price drop reported by daily search 2026-11-06.", "price": "$1,029,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1704-A-N-47th-St-98103/home/199571233"}
       ]
     },
     "Apartments": {
