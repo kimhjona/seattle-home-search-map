@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-11 — Sync from property sheet: 1 new candidate home
+
+- Added 305 17th Ave E ($1,029,900, Active) to the Candidate homes layer
+  (sheet row 21; Jon's notes: "From the daily search 2026-11-11.").
+  Geocoded to a full-address match (47.62072, -122.31028).
+  Candidate homes: 40 -> 41. Total markers: 482 -> 483.
+
 ## 2026-11-06 — Sync from property sheet: 4 new candidate homes
 
 - Added 4721 9th Ave NE ($950,000, Active) to the Candidate homes layer

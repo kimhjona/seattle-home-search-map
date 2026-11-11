@@ -52,7 +52,8 @@ const mapData = {
         {"lat": 47.66382, "lon": -122.31858, "name": "4721 9th Ave NE", "notes": "From the daily search 2026-11-06.", "price": "$950,000", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/4721-9th-Ave-NE-98105/home/69356408"},
         {"lat": 47.61781, "lon": -122.30628, "name": "1801 20th Ave Unit B", "notes": "From the daily search 2026-11-06.", "price": "$699,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1801-20th-Ave-98122/unit-B/home/172698534"},
         {"lat": 47.66303, "lon": -122.34001, "name": "1410 N 47th St Unit A", "notes": "Price drop reported by daily search 2026-11-06.", "price": "$919,800", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1410-N-47th-St-98103/unit-A/home/199485443"},
-        {"lat": 47.66304, "lon": -122.33724, "name": "1704 A N 47th St", "notes": "Price drop reported by daily search 2026-11-06.", "price": "$1,029,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1704-A-N-47th-St-98103/home/199571233"}
+        {"lat": 47.66304, "lon": -122.33724, "name": "1704 A N 47th St", "notes": "Price drop reported by daily search 2026-11-06.", "price": "$1,029,950", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/1704-A-N-47th-St-98103/home/199571233"},
+        {"lat": 47.62072, "lon": -122.31028, "name": "305 17th Ave E", "notes": "From the daily search 2026-11-11.", "price": "$1,029,900", "status": "Active", "url": "https://www.redfin.com/WA/Seattle/305-17th-Ave-E-98112/home/144466527"}
       ]
     },
     "Apartments": {
