@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-12 — Sync from property sheet: 2 new candidate homes
+
+- Added 1523 NW 63rd St Unit B ($999,950, Active) to the Candidate homes layer
+  (sheet row 23; Jon's notes: "From the daily search 2026-11-12.").
+  Geocoded to a full-address match (47.67444, -122.37736).
+- Added 705 20th Pl S Unit A ($799,000, Active) to the Candidate homes layer
+  (sheet row 24; Jon's notes: "From the daily search 2026-11-12.").
+  Geocoded to a full-address match (47.59637, -122.30504).
+  Candidate homes: 41 -> 43. Total markers: 483 -> 485.
+
 ## 2026-11-11 — Sync from property sheet: 1 new candidate home
 
 - Added 305 17th Ave E ($1,029,900, Active) to the Candidate homes layer
